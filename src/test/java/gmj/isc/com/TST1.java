@@ -7,7 +7,9 @@ public class TST1 {
    @Test
 	
    public void testAdd() {
-      String str = "Junit is working fine";
-      assertEquals("Junit is working fine",str);
+		  System.out.println("TST1 start");
+	      String str = "Junit is working fine";      
+	      assertEquals("Junit is working fine",str);
+	      System.out.println("TST1 complete");
    }
 }
